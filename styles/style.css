@@ -1,0 +1,46 @@
+.container, .footer {
+  text-align: center;
+}
+
+.search {
+  background-color: #EEEEEE;
+  padding: 20;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: white;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;    
+  grid-template-columns: auto 200px auto;
+  grid-column-gap: 2px;
+}
+
+.input {
+  width: 50%;
+}
+
+.button {
+  margin-top: 5px;
+}
+
+#grid-1{
+  padding: 10px;
+  background-color: paleturquoise  ;
+}
+
+#grid-2{
+  padding: 10px;
+  background-color:turquoise;
+}
+
+#grid-3{
+  padding: 10px;
+  background-color:cadetblue  ;
+}
+
+p, strong {
+  padding: 1px;
+  margin: 1px;
+}
